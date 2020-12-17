@@ -1,0 +1,1 @@
+contarpalabras <- function(x) sapply(strsplit(x, " "), length)
