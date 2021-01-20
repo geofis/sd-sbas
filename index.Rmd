@@ -1,6 +1,6 @@
 ---
 title: "Deformación superficial en la ciudad de Santo Domingo usando small baseline subset (SBAS)"
-author: José Ramón Martínez Batlle <br> Universidad Autónoma de Santo Domingo
+author: José Ramón Martínez Batlle <br> Universidad Autónoma de Santo Domingo <br> jmartinez19@uasd.edu.do
 date: " II Congreso Internacional de la <br> Sociedad Dominicana de Física <br> CI-SoDoFi 2021 (20/ene/2021) <br> https://geofis.github.io/sd-sbas/"
 output:
   revealjs::revealjs_presentation:
@@ -189,6 +189,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Aunque se requieren más observaciones (+tracks, +comprobación de terreno), las señales observadas en la **llanura de inundación del río Ozama son atribuibles a subsidencia**, aunque las causas de ésta podrían ser varias (e.g. extracción de agua subterránea, asentamiento de sedimentos no consolidados).
 
+![Velocity map](img/vel_sd_cors_rdsd_star_marcado.jpg){width=65%}
+
 ##
 
 - La señal en el sector Las Malvinas, es atribuible a **asentamiento de materiales de relleno de cañada**.
@@ -197,7 +199,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ##
 
+![Velocity map](img/vel_sd_cors_rdsd_star_marcado_2.jpg)
+
+##
+
 - Estos hallazgos **son relevantes para los habitantes de estos barrios**, dado que, con el tiempo, las **inundaciones tenderían a amplificarse** y los cimientos de las infraestructuras sensibles podrían afectarse (e.g. Teleférico de Santo Domingo). 
+
+- URL de la presentación: https://geofis.github.io/sd-sbas/
+
+- Correo: jmartinez19\@uasd.edu.do
 
 
 # References
