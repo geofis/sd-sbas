@@ -1,7 +1,7 @@
 ---
 title: "Deformación superficial en la ciudad de Santo Domingo usando small baseline subset (SBAS)"
-author: José Ramón Martínez Batlle <br> Autonomous University <br> of Santo Domingo (UASD)
-date: " <br> https://geofis.github.io/sd-sbas/"
+author: José Ramón Martínez Batlle <br> Universidad Autónoma de Santo Domingo
+date: " II Congreso Internacional de la <br> Sociedad Dominicana de Física <br> CI-SoDoFi 2021 (20/ene/2021) <br> https://geofis.github.io/sd-sbas/"
 output:
   revealjs::revealjs_presentation:
     template: defaultmodificada.html
@@ -28,6 +28,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![](img/cors-rdsd-vertical-component.png){width=70%}
 
+##
+
+![LOS displacement using two S1 scenes SNAP](img/insar_2016_2018_displacement.png)
+
 # Context
 
 ##
@@ -49,9 +53,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![Co-seismic interferogram (wrapped phase, Sentinel 1), earthquake 29/Dec/2020 (M6.4) near Petrinja & Sisak, Croatia. Each fringe ~2.8cm of deformation in the satellite line-of-sight](img/petrinja-sisak-croatia-29-dec-2020.jpg){width=70%}
 
-##
+<!-- ## -->
 
-![Co-seismic interferogram (wrapped phase, Sentinel 1), earthquake occurred 23/Sept/2018 (M5.2), Villa Elisa, Dominican Republic. Each fringe (complete color cycle) represents ~ 2.8 cm of ground deformation in the satellite line-of-sight](img/tremor-villa-elisa.jpg)
+<!-- ![Co-seismic interferogram (wrapped phase, Sentinel 1), earthquake occurred 23/Sept/2018 (M5.2), Villa Elisa, Dominican Republic. Each fringe (complete color cycle) represents ~ 2.8 cm of ground deformation in the satellite line-of-sight](img/tremor-villa-elisa.jpg) -->
 
 ## 
 
@@ -61,30 +65,34 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![https://www.ga.gov.au/scientific-topics/positioning-navigation/geodesy/geodetic-techniques/interferometric-synthetic-aperture-radar](img/sar-images-interferogram-formation.jpg)
 
-# Materials and methods
+<!-- ## Workflow for creating interferograms -->
 
-## Generic workflow
+<!-- 1. Align the reference and repeat images to sub-pixel accuracy -->
 
-1. Align the reference and repeat images to sub-pixel accuracy
+<!-- 2. The second step is to multiply the two SLC images to form the complex interferogram -->
 
-2. The second step is to multiply the two SLC images to form the complex interferogram
+<!-- 3. Extract the phase of the interferogram -->
 
-3. Extract the phase of the interferogram
+<!-- ## -->
 
-##
-
-![Phase of the interferogram [@sandwell2011insar]](img/generic-workflow.jpg){width=80%}
+<!-- ![Phase of the interferogram [@sandwell2011insar]](img/generic-workflow.jpg){width=80%} -->
 
 
 ##
 
 ![Contributions to phase [@sandwell2011insar]](img/contributions-to-phase.jpg)
 
+##
+
+![](img/contributions-to-phase-marcado.jpg)
+
 ## Forming interferograms in GMTSAR
 
 ##
 
 ![Workflow in GMTSAR, 2-pass processing [@sandwell2011insar]](img/p2p-processing.jpg){width=35%}
+
+# Materials and methods
 
 ## SBAS
 
@@ -96,9 +104,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 [@berardino2002new;@casu2011deformation]
 
-## 
+<!-- ##  -->
 
-![](img/sbas-method.jpg)
+<!-- ![](img/sbas-method.jpg) -->
 
 ##
 
@@ -116,9 +124,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![](img/cors-rdsd.png)
 
-## u-blox GNSS
+## u-blox GNSS receiver
 
-- TESTED with recent SBAS, not used for 2016-2018 time-series.
+- TESTED with recent SBAS, not used for the 2016-2018 time-series.
 
 ![](img/unidad-gnss-partes-basicas.jpeg)
 
@@ -149,7 +157,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ##
 
-- Al menos cuatro áreas de la ciudad con fuertes señales de alejamiento en la línea de observación del sensor en barrios densamente poblados de la llanura de inundación del río Ozama.
+- Al menos cuatro áreas de la ciudad con fuertes señales de alejamiento en la línea de observación del sensor; barrios densamente poblados de la llanura de inundación del río Ozama.
 
 - Una señal muy intensa y concentrada en área pequeña, próximo a cañada, sector Las Malvinas.
 
