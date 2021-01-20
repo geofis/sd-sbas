@@ -148,29 +148,48 @@ knitr::opts_chunk$set(echo = FALSE)
 # Results
 
 ##
-<iframe width="100%" height="600" src="https://geofis.xyz/lm/index.php/view/map/?repository=sbassd1618&project=lizmap" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+- Al menos cuatro áreas de la ciudad con fuertes señales de alejamiento en la línea de observación del sensor en barrios densamente poblados de la llanura de inundación del río Ozama.
 
-```{r, eval=F}
-library(mapview)
-library(magrittr)
-library(leaflet)
-library(leafem)
-m <- mapview()
-m@map <- m@map %>% addWMSTiles(
-  group = "SBAS",
-  baseUrl = "https://geofis.xyz/lm/index.php/lizmap/service/?repository=sbassd1618&project=lizmap&SERVICE=WMS&VERSION=1.3.0",
-  layers  = "SD SBAS 2016-2018",
-  options = WMSTileOptions(format = "image/png", transparent = TRUE),
-  attribution = "") %>% 
-  mapview:::mapViewLayersControl(names = c("MTN"))
-m %>% leaflet::setView(lng = -70.2138, lat = 18.606, zoom = 16)
-```
+- Una señal muy intensa y concentrada en área pequeña, próximo a cañada, sector Las Malvinas.
 
+- Las velocidades de alejamiento máximas obtenidas fueron de ~60 mm/año, con valores promedio de ~40 mm/año.
+
+##
+
+![](img/gif.gif){width=60%}
 
 ## 
 
-![Validation of corrected time-series](img/insar_gps_time_series_plot.jpg)
+![Velocity map](img/vel_sd_cors_rdsd_star.jpg)
+
+## 
+
+![Validation of corrected time-series with CORS-RDSD](img/insar_gps_time_series_plot.jpg)
+
+##
+
+<iframe width="100%" height="600" src="https://geofis.xyz/lm/index.php/view/map/?repository=sbassd1618&project=lizmap" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<span style="font-size:60%;">[https://geofis.xyz/lm/index.php/view/map/?repository=sbassd1618&project=lizmap](https://geofis.xyz/lm/index.php/view/map/?repository=sbassd1618&project=lizmap)</span>
+
+# Discussion
+
+- Aunque se requieren más observaciones (+tracks, +comprobación de terreno), las señales observadas en la llanura de inundación del río Ozama son atribuibles a subsidencia.
+
+##
+
+- La señal en el sector Las Malvinas, es atribuible a asentamiento de materiales de relleno de cañada.
+
+![](img/las-malvinas.gif)
+
+##
+
+- Estos hallazgos son relevantes para los habitantes de estos barrios, dado que, con el tiempo, las inundaciones tenderían a amplificarse y los cimientos de las infraestructuras sensibles podrían afectarse (e.g. Teleférico de Santo Domingo). 
+
+##
+
+![Mapping the global threat of land subsidence](img/subsidence-globally.jpg)
 
 
 # References
