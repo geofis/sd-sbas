@@ -57,6 +57,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <!-- ![Co-seismic interferogram (wrapped phase, Sentinel 1), earthquake occurred 23/Sept/2018 (M5.2), Villa Elisa, Dominican Republic. Each fringe (complete color cycle) represents ~ 2.8 cm of ground deformation in the satellite line-of-sight](img/tremor-villa-elisa.jpg) -->
 
+##
+
+![Mapping the global threat of land subsidence](img/subsidence-globally.jpg)
+
 ## 
 
 ![Platforms-Missions. Elliott et al., *Nat. Comm.* (2016)](img/space-sar-missions.jpg){width=65%}
@@ -114,11 +118,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ##
 
-![Athmospheric delay example (Barahona)](img/barahona-atm-delay.jpg)
+![Athmospheric delay example (Barahona). S1A 17/Sep '16 --- S1B 17/Oct '16](img/barahona-atm-delay.jpg)
 
 ## Scenes
 
-![](img/select-pairs-baseline-days.jpg)
+![18 escenas, 42 interferogramas](img/select-pairs-baseline-days.jpg)
 
 ## 
 
@@ -165,7 +169,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ##
 
-![](img/gif.gif){width=60%}
+![42 interferogramas](img/gif.gif){width=60%}
 
 ## 
 
@@ -183,21 +187,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Discussion
 
-- Aunque se requieren más observaciones (+tracks, +comprobación de terreno), las señales observadas en la llanura de inundación del río Ozama son atribuibles a subsidencia.
+- Aunque se requieren más observaciones (+tracks, +comprobación de terreno), las señales observadas en la **llanura de inundación del río Ozama son atribuibles a subsidencia**, aunque las causas de ésta podrían ser varias (e.g. extracción de agua subterránea, asentamiento de sedimentos no consolidados).
 
 ##
 
-- La señal en el sector Las Malvinas, es atribuible a asentamiento de materiales de relleno de cañada.
+- La señal en el sector Las Malvinas, es atribuible a **asentamiento de materiales de relleno de cañada**.
 
 ![](img/las-malvinas.gif)
 
 ##
 
-- Estos hallazgos son relevantes para los habitantes de estos barrios, dado que, con el tiempo, las inundaciones tenderían a amplificarse y los cimientos de las infraestructuras sensibles podrían afectarse (e.g. Teleférico de Santo Domingo). 
-
-##
-
-![Mapping the global threat of land subsidence](img/subsidence-globally.jpg)
+- Estos hallazgos **son relevantes para los habitantes de estos barrios**, dado que, con el tiempo, las **inundaciones tenderían a amplificarse** y los cimientos de las infraestructuras sensibles podrían afectarse (e.g. Teleférico de Santo Domingo). 
 
 
 # References
