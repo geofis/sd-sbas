@@ -1,7 +1,7 @@
 ---
 title: "Deformación superficial en la ciudad de Santo Domingo usando small baseline subset (SBAS)"
-author: José Ramón Martínez Batlle <br> Universidad Autónoma de Santo Domingo <br> jmartinez19@uasd.edu.do
-date: " II Congreso Internacional de la <br> Sociedad Dominicana de Física <br> CI-SoDoFi 2021 (20/ene/2021) <br> https://geofis.github.io/sd-sbas/"
+author: "José Ramón Martínez Batlle <br> Universidad Autónoma de Santo Domingo <br> jmartinez19@uasd.edu.do"
+date: "17 de noviembre, 2021 <br> XX Jornada de Investigación Científica <br> https://geofis.github.io/sd-sbas/"
 output:
   revealjs::revealjs_presentation:
     template: defaultmodificada.html
